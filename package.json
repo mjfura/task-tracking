@@ -8,7 +8,8 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "lint": "eslint .",
     "prettier": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "cael": "cael"
   },
   "keywords": [],
   "author": "",
@@ -37,5 +38,8 @@
       "eslint",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "cael-arch": "^1.0.5"
   }
 }
