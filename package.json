@@ -8,7 +8,8 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "lint": "eslint .",
     "prettier": "prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "cael": "cael"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "@babel/preset-env": "7.24.4",
     "@babel/preset-typescript": "7.24.1",
     "@types/jest": "29.5.12",
+    "@types/node": "20.12.7",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "babel-jest": "29.7.0",
     "eslint": "8.57",
@@ -36,5 +38,8 @@
       "eslint",
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "cael-arch": "^1.0.5"
   }
 }
